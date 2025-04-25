@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1018836919259",
+    "firebase_url": "https://chatapp-8ba97-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-8ba97",
+    "storage_bucket": "chatapp-8ba97.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018836919259:android:ed6821c9f099c5ff5f7dfe",
+        "android_client_info": {
+          "package_name": "com.example.chatterrr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD5SmSlg5uBKcmm2F9fYo8YRwiYpKFAM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
