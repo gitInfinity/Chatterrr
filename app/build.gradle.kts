@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.implementation
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -6,6 +8,7 @@ plugins {
     alias(libs.plugins.hilt.android)
     alias(libs.plugins.google.firebase.crashlytics)
     kotlin("kapt")
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.22"
 }
 
 android {
@@ -31,6 +34,13 @@ android {
             )
         }
     }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/{DEPENDENCIES,LICENSE,LICENSE.txt,NOTICE.txt,NOTICE}"
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -78,8 +88,18 @@ dependencies {
     implementation(libs.coil)
     implementation(libs.androidx.material3.adaptive.navigation.suite)
     implementation(libs.androidx.material3.window.size.class1)
-    implementation(libs.androidx.material.icons.core) //Change the version if needed
+    implementation(libs.androidx.material.icons.core)
     implementation(libs.androidx.material.icons.extended)
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.security.crypto)
+    implementation(libs.firebase.messaging.ktx)
+    implementation(libs.firebase.functions.ktx)
+    implementation (libs.shortcutbadger)
+    implementation(libs.volley)
+    implementation(libs.google.auth.library.oauth2.http)
 }
 
 hilt {

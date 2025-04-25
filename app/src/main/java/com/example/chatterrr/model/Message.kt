@@ -1,13 +1,15 @@
 package com.example.chatterrr.model
 
-data class Message(
-    val id: String = "",
-    val senderId: String = "",
-    val message: String = "",
-    val createdAt: Long = System.currentTimeMillis(),
-    val senderName: String = "",
-    val senderImage: String? = null,
-    val imageUrl: String? = null
-){
+import com.google.firebase.database.IgnoreExtraProperties
 
-}
+@IgnoreExtraProperties // Important for Firebase serialization
+data class Message(
+    val id: String = "", // Default value needed for Firebase
+    val senderId: String = "",
+    var message: String? = null, // Will hold DECRYPTED text, or null for image/video/failed decrypt
+    val createdAt: Long = System.currentTimeMillis(),
+    val senderName: String = "", // Or display name
+    val senderPhotoUrl: String? = null, // If you store user avatars
+    val imageUrl: String? = null, // For images/videos
+    val readBy: List<String> = emptyList()
+)
