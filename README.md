@@ -2,7 +2,7 @@
 Chatterrr is a modern Android chat application built with Jetpack Compose, Firebase, Hilt, and the MVVM architectural pattern.
 
 ## Features
- - ### Current Features:
+ - ### Current Features
 
    - Real-time Messaging: Send and receive text messages in real-time within channels.
    
@@ -14,7 +14,7 @@ Chatterrr is a modern Android chat application built with Jetpack Compose, Fireb
    
    - Channel Search: Search for existing channels by name.
 
-## Future Features:
+## Future Features
 
 - Voice Calls
 
@@ -47,11 +47,11 @@ Chatterrr is a modern Android chat application built with Jetpack Compose, Fireb
 ## Setup and Installation
 To set up and run Chatterrr locally:
 
-- ### Clone the repository:
+- ### Clone the repository
 
   - git clone <https://github.com/gitInfinity/ChatApp.git>
 
-  - ### Set up Firebase:
+  - ### Set up Firebase
 
     - Create a new Firebase project in the Firebase console.
 
