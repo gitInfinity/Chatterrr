@@ -25,11 +25,11 @@ Chatterrr is a modern Android chat application built with Jetpack Compose, Fireb
 
 - Firebase: Backend services including:
 
-- Firebase Authentication
-
-- Firebase Realtime Database
-
-- Firebase Storage
+ - Firebase Authentication
+ 
+ - Firebase Realtime Database
+ 
+ - Firebase Storage
 
 - Hilt: Dependency injection library for Android, built on top of Dagger.
 
