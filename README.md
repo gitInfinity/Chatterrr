@@ -2,17 +2,17 @@
 Chatterrr is a modern Android chat application built with Jetpack Compose, Firebase, Hilt, and the MVVM architectural pattern.
 
 ## Features
-- Current Features:
+### - Current Features:
 
-- Real-time Messaging: Send and receive text messages in real-time within channels.
-
-- Image Sharing: Share images directly within chat conversations.
-
-- Video Sharing: Share videos directly within chat conversations.
-
-- Channel Management: Create and view chat channels.
-
-- Channel Search: Search for existing channels by name.
+  - Real-time Messaging: Send and receive text messages in real-time within channels.
+  
+  - Image Sharing: Share images directly within chat conversations.
+  
+  - Video Sharing: Share videos directly within chat conversations.
+  
+  - Channel Management: Create and view chat channels.
+  
+  - Channel Search: Search for existing channels by name.
 
 ## Future Features:
 
