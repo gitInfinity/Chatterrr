@@ -13,6 +13,10 @@ Chatterrr is a modern Android chat application built with Jetpack Compose, Fireb
    - Channel Management: Create and view chat channels.
    
    - Channel Search: Search for existing channels by name.
+  
+   - Read receipts: Know when other user has viewed your chats
+  
+   - Push notifications
 
 ## Future Features
 
